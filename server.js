@@ -18,6 +18,37 @@ var articleOne = {
                 <p> This is the content of my first article.This is the content of my first article.This is the content of my first article.This is the content of my first article.This is the content of my first article.This is the content of my first article.This is the content of my first article.This is the content of my first article.This is the content of my first article.This is the content of my first article.
                 </p> `
 };
+var articleTwo = {
+    title: 'Article Two | Harsh Makadia',
+  heading: 'Article Two',
+  date: 'Feb 6, 2017',
+  content: ` 
+            <p> This is the content of my second article.This is the content of my second article.This is the content of my second         article.This is the content of my second article.This is the content of my second article.This is the content of my     second article.This is the content of my second article.This is the content of my second article.This is the content     of my second article.This is the content of my second article.
+            </p>
+            <p>
+                 This is the content of my second article.This is the content of my second articleThis is the content of my second articleThis is the content of my second article.This is the content of my second article.This is the content of my second article.This is the content of my second article.This is the content of my second article.This is the content of my second article.
+            </p>
+            <p> This is the content of my second article.This is the content of my second article.This is the content of my second article.This is the content of my second article.This is the content of my second article.This is the content of my second article.This is the content of my second article.This is the content of my second article.This is the content of my second article.This is the content of my second article.
+            </p>
+            
+                `
+};
+
+var articleThree = {
+    title: 'Article Three | Harsh Makadia',
+  heading: 'Article Three',
+  date: 'Feb 6, 2017',
+  content: ` 
+            <p> This is the content of my third article.This is the content of my third article.This is the content of my third         article.This is the content of my third article.This is the content of my third article.This is the content of my     third article.This is the content of my third article.This is the content of my third article.This is the content     of my third article.This is the content of my third article.
+            </p>
+            <p>
+                 This is the content of my third article.This is the content of my third articleThis is the content of my third articleThis is the content of my third article.This is the content of my third article.This is the content of my third article.This is the content of my third article.This is the content of my third article.This is the content of my third article.
+            </p>
+            <p> This is the content of my third article.This is the content of my third article.This is the content of my third article.This is the content of my third article.This is the content of my third article.This is the content of my third article.This is the content of my third article.This is the content of my third article.This is the content of my third article.This is the content of my third article.
+            </p>
+            
+             `  
+};
 
 function createTemplate (data) {
     var title = data.title;
