@@ -84,6 +84,9 @@ return htmlTemplate;
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
+
+
+//--IMPORTANT--
 //: colon means it matches for the keyword
 app.get('/:articleName', function (req, res) {
     //articleName == article-one
@@ -91,7 +94,7 @@ app.get('/:articleName', function (req, res) {
     var articleName = req.params.articleName
    res.send(createTemplate(articles[articleName]));
 });
-
+//--IMPORTANT--
 
 
 app.get('/ui/style.css', function (req, res) {
