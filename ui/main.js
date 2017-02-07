@@ -5,5 +5,5 @@ element.innerHTML = "new value";
 
 var img = document.getElementById("img");
 img.onclick = function() {
-  img.style.width = '100px';  
+  img.style.width = '500px';  
 };
