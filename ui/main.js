@@ -18,7 +18,7 @@ button.onclick = function() {
         }
     };
     
-    request.open('GET', '', true);
+    request.open('GET', 'http://harsh-makadia.imad.hasura-app.io/counter', true);
     request.send(null);
     
 };
